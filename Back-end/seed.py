@@ -103,93 +103,93 @@ with app.app_context():
 
     hoodies = [
         Hoodie(
-            name='Hoodie 1',
+            name='Ami',
             description='Description for Hoodie 1',
-            price='39.99',
+            price='350.00',
             image_url=''  # Add image URL for Hoodie 1
         ),
         Hoodie(
-            name='Hoodie 2',
+            name='Chrome Heart',
             description='Description for Hoodie 2',
-            price='39.99',
+            price='880.00',
             image_url=''  # Add image URL for Hoodie 2
         ),
         Hoodie(
-            name='Hoodie 3',
+            name='Champions',
             description='Description for Hoodie 3',
             price='39.99',
             image_url=''  # Add image URL for Hoodie 3
         ),
         Hoodie(
-            name='Hoodie 4',
+            name='Dior',
             description='Description for Hoodie 4',
-            price='39.99',
+            price='309.99',
             image_url=''  # Add image URL for Hoodie 4
         ),
         Hoodie(
-            name='Hoodie 5',
+            name='Prada',
             description='Description for Hoodie 5',
-            price='39.99',
+            price='40.00',
             image_url=''  # Add image URL for Hoodie 5
         ),
         Hoodie(
-            name='Hoodie 6',
+            name='H&M',
             description='Description for Hoodie 6',
             price='39.99',
             image_url=''  # Add image URL for Hoodie 6
         ),
         Hoodie(
-            name='Hoodie 7',
+            name='Nike',
             description='Description for Hoodie 7',
-            price='39.99',
+            price='60.00',
             image_url=''  # Add image URL for Hoodie 7
         ),
         Hoodie(
-            name='Hoodie 8',
+            name='YEEZY',
             description='Description for Hoodie 8',
-            price='39.99',
+            price='200.00',
             image_url=''  # Add image URL for Hoodie 8
         ),
         Hoodie(
-            name='Hoodie 9',
+            name='GAP',
             description='Description for Hoodie 9',
             price='39.99',
             image_url=''  # Add image URL for Hoodie 9
         ),
         Hoodie(
-            name='Hoodie 10',
+            name='Gucci',
             description='Description for Hoodie 10',
-            price='39.99',
+            price='110.00',
             image_url=''  # Add image URL for Hoodie 10
         ),
         Hoodie(
-            name='Hoodie 11',
+            name='Louis Vuitton',
             description='Description for Hoodie 11',
-            price='39.99',
+            price='330.00',
             image_url=''  # Add image URL for Hoodie 11
         ),
         Hoodie(
-            name='Hoodie 12',
+            name='ZARA',
             description='Description for Hoodie 12',
-            price='39.99',
+            price='100.00',
             image_url=''  # Add image URL for Hoodie 12
         ),
         Hoodie(
-            name='Hoodie 13',
+            name='Addidas',
             description='Description for Hoodie 13',
             price='39.99',
             image_url=''  # Add image URL for Hoodie 13
         ),
         Hoodie(
-            name='Hoodie 14',
+            name='Balenciaga',
             description='Description for Hoodie 14',
-            price='39.99',
+            price='390.00',
             image_url=''  # Add image URL for Hoodie 14
         ),
         Hoodie(
-            name='Hoodie 15',
+            name='Abercrombie',
             description='Description for Hoodie 15',
-            price='39.99',
+            price='38.00',
             image_url=''  # Add image URL for Hoodie 15
         )
     ]
@@ -291,93 +291,93 @@ with app.app_context():
 
     pants = [
         Pant(
-            name='Pant 1',
+            name='Prada',
             description='Description for Pant 1',
-            price='49.99',
+            price='39.99',
             image_url=''  # Add image URL for Pant 1
         ),
         Pant(
-            name='Pant 2',
+            name='Valentino',
             description='Description for Pant 2',
             price='49.99',
             image_url=''  # Add image URL for Pant 2
         ),
         Pant(
-            name='Pant 3',
+            name='Versace',
             description='Description for Pant 3',
-            price='49.99',
+            price='69.99',
             image_url=''  # Add image URL for Pant 3
         ),
         Pant(
-            name='Pant 4',
+            name='Ferragamo',
             description='Description for Pant 4',
-            price='49.99',
+            price='89.99',
             image_url=''  # Add image URL for Pant 4
         ),
         Pant(
-            name='Pant 5',
+            name='Givenchi',
             description='Description for Pant 5',
-            price='49.99',
+            price='70.99',
             image_url=''  # Add image URL for Pant 5
         ),
         Pant(
-            name='Pant 6',
+            name='Calvin Klein',
             description='Description for Pant 6',
             price='49.99',
             image_url=''  # Add image URL for Pant 6
         ),
         Pant(
-            name='Pant 7',
+            name='Dior',
             description='Description for Pant 7',
-            price='49.99',
+            price='429.99',
             image_url=''  # Add image URL for Pant 7
         ),
         Pant(
-            name='Pant 8',
+            name='Chrome Heart Blue-Jeans',
             description='Description for Pant 8',
-            price='49.99',
+            price='949.99',
             image_url=''  # Add image URL for Pant 8
         ),
         Pant(
-            name='Pant 9',
+            name='Black Denim',
             description='Description for Pant 9',
-            price='49.99',
+            price='9.99',
             image_url=''  # Add image URL for Pant 9
         ),
         Pant(
-            name='Pant 10',
+            name='Amiri',
             description='Description for Pant 10',
-            price='49.99',
+            price='409.99',
             image_url=''  # Add image URL for Pant 10
         ),
         Pant(
-            name='Pant 11',
+            name='GAP',
             description='Description for Pant 11',
-            price='49.99',
+            price='19.99',
             image_url=''  # Add image URL for Pant 11
         ),
         Pant(
-            name='Pant 12',
+            name='Carhart',
             description='Description for Pant 12',
-            price='49.99',
+            price='99.99',
             image_url=''  # Add image URL for Pant 12
         ),
         Pant(
-            name='Pant 13',
+            name='Gucci',
             description='Description for Pant 13',
-            price='49.99',
+            price='209.99',
             image_url=''  # Add image URL for Pant 13
         ),
         Pant(
-            name='Pant 14',
+            name='Louis Vuitton',
             description='Description for Pant 14',
-            price='49.99',
+            price='329.99',
             image_url=''  # Add image URL for Pant 14
         ),
         Pant(
-            name='Pant 15',
+            name='Chrome heart',
             description='Description for Pant 15',
-            price='49.99',
+            price='490.99',
             image_url=''  # Add image URL for Pant 15
         )
     ]
