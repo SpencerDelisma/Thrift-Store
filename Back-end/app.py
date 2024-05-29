@@ -14,7 +14,7 @@ migrate = Migrate(app, db)
 
 
 
-
+#routes for the app 
 @app.route('/')
 def index():
     return '<h1>Project Server</h1>'
