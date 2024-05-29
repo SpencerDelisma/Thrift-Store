@@ -3,7 +3,8 @@ import React from 'react';
 import './Receipt.css';
 
 function Receipt({ items, deliveryInfo, paymentInfo, onClose }) {
-  const { nameOnCard, cardNumber, securityCode, expiryDate } = paymentInfo;
+  //const { nameOnCard, cardNumber, securityCode, expiryDate } = paymentInfo;
+  const { nameOnCard, cardNumber, expiryDate } = paymentInfo;
 
   // Generate receipt number (you can use any method to generate a unique receipt number)
   const receiptNumber = Math.floor(Math.random() * 1000000); // Example: Generates a random 6-digit receipt number
