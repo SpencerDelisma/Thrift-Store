@@ -25,16 +25,16 @@ function Hoodies() {
     <div className="hoodie-container">
       {/* <h2>Hoodies</h2> */}
       {hoodies.map(hoodie => (
-        <div key={hoodie.id} className="card">
-          <div className="card-image-container">
-            <img src={hoodie.image_url} alt={hoodie.name} className="card-image" />
+        <div key={hoodie.id} className="card1">
+          <div className="card-image-container1">
+            <img src={hoodie.image_url} alt={hoodie.name} className="card-image1" />
           </div>
-          <div className="info-container">
-          <div className="card-title">{hoodie.name}</div>
-          <div className="card-des">{hoodie.description}</div>
-          <div className="card-price">Price: ${hoodie.price}</div>
+          <div className="info-container1">
+          <div className="card-title1">{hoodie.name}</div>
+          <div className="card-des1">{hoodie.description}</div>
+          <div className="card-price1">Price: ${hoodie.price}</div>
           {/* <button onClick={() => handleDeleteHoodie(hoodie.id)}>Delete</button> */}
-          <button onClick={() => handleAddToCart(hoodie)} className="add-to-cart-button">Add to Cart</button> {/* Add button to add hoodie to cart */}
+          <button onClick={() => handleAddToCart(hoodie)} className="add-to-cart-button1">Add to Cart</button> {/* Add button to add hoodie to cart */}
         </div>
         </div>
       ))}

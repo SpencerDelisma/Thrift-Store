@@ -1,5 +1,6 @@
 .navbar {
-  background-color: #753c00;
+ 
+  background-color: #171614;
   padding: 20px;
   text-align: center;
   position: fixed; /* Make the navbar fixed */
@@ -11,31 +12,31 @@
 
 @keyframes glow {
   0% {
-    box-shadow: 0 0 30px 15px rgba(255, 165, 0, 0.5); /* Start with orange glow */
+    box-shadow: 0 0 30px 15px rgba(76, 75, 72, 0.5); /* Start with orange glow */
   }
   50% {
-    box-shadow: 0 0 30px 15px rgba(0, 0, 255, 0.5); /* Change to blue glow */
+    box-shadow: 0 0 30px 15px rgba(55, 55, 58, 0.5); /* Change to blue glow */
   }
   100% {
-    box-shadow: 0 0 30px 15px rgba(255, 165, 0, 0.5); /* Back to orange glow */
+    box-shadow: 0 0 30px 15px rgba(71, 70, 69, 0.5); /* Back to orange glow */
   }
 }
 
 .navbar-list {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 0px;
   display: flex;
   justify-content: center;
 }
 
 .navbar-list li {
-  margin-right: 20px;
+  margin-right: 170px;
 }
 
 .navbar-link {
   text-decoration: none;
-  color: white;
+  color: rgb(187, 183, 183);
   font-size:40px;
   padding: 15px 30px;
   border-radius: 8px;
@@ -43,7 +44,7 @@
 }
 
 .navbar-link:hover {
-  background-color: #5978F3;
-  box-shadow: 0 0 20px rgb(255, 115, 0); /* Add lighting effect on hover */
+  background-color: #141415;
+  box-shadow: 0 0 20px rgb(63, 60, 58); /* Add lighting effect on hover */
 }
 

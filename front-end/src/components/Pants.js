@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { CartContext } from './CartContext';
-import './Pant.css'; // Replace 'YourCSSFileName' with the actual name of your CSS file
+import './Pants.css'; // Replace 'YourCSSFileName' with the actual name of your CSS file
 
 function Pants() {
   const [pants, setPants] = useState([]);
