@@ -1,0 +1,48 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 100vh; /* Set height to full viewport height for centering */
+  
+}
+
+.about-container h1 {
+  font-size: 10rem; 
+  color: #ff8c00;
+  text-decoration: underline;
+  margin-top: 200px; /* Add space above the h1 */
+  text-shadow: 0 0 1000px #000000, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff8c00, 0 0 70px #ff8c00, 0 0 80px #ff8c00, 0 0 100px #ff8c00, 0 0 150px #ff8c00;
+  animation: glowText 0s linear infinite alternate;
+  
+}
+
+@keyframes glowText {
+  0% {
+      text-shadow: 0 0 10px #000000, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff8c00, 0 0 70px #ff8c00, 0 0 80px #ff8c00, 0 0 100px #ff8c00, 0 0 150px #ff8c00;
+  }
+  100% {
+      text-shadow: 0 0 20px #000000, 0 0 40px #fff, 0 0 60px #fff, 0 0 80px #ff8c00, 0 0 100px #ff8c00, 0 0 120px #ff8c00, 0 0 140px #ff8c00, 0 0 160px #ff8c00;
+  }
+}
+
+.about-container h3 {
+  font-size: 6rem; 
+  color: #d47501;
+  margin-top: -50px;
+  background-color: #1406b186;
+  border-radius: 50px;
+}
+
+.about-container p {
+  font-size: 4rem; 
+  color: #d47501;
+  margin-top: -50px;
+  background-color: #1406b186;
+  border-radius: 50px;
+}
+
+
+  
+
+  

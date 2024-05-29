@@ -1,0 +1,78 @@
+/* App.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure app takes up at least the full viewport height */
+}
+
+.content-container {
+  flex: 1; /* Take up remaining vertical space */
+  display: flex;
+  justify-content: center; /* Align content horizontally */
+  align-items: flex-start; /* Align content to the top */
+}
+
+
+
+.app-container {
+  position: relative;
+}
+
+.logo-container {
+  position: fixed;
+  top: 150px; /* Adjust the top position to move the logo down */
+}
+
+.left-logo {
+  left: 20px; /* Adjust the left position for the left logo */
+}
+
+.right-logo {
+  right: 20px; /* Adjust the right position for the right logo */
+}
+
+.app-logo {
+  width: 200px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+  animation: glow 2s linear infinite alternate;
+  border-radius: 50%;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px 5px rgba(255, 165, 0, 0.5); /* Start with orange glow */
+  }
+  50% {
+    box-shadow: 0 0 20px 10px rgba(0, 0, 255, 0.5); /* Change to blue glow */
+  }
+  100% {
+    box-shadow: 0 0 10px 5px rgba(255, 165, 0, 0.5); /* Back to orange glow */
+  }
+}
+
+
+/* App.css */
+
+.led-light {
+position: fixed;
+bottom: 0;
+left: 0;
+width: 100%;
+height: 1px; /* Adjust height as needed */
+background: linear-gradient(to right, #ff8c00, #0D1127, #5978F3); /* Orange to dark blue */
+animation: light-glow 2s linear infinite alternate; /* Animation for light glow */
+}
+
+
+
+@keyframes light-glow {
+0% {
+  box-shadow: 0 0 10px 20px rgba(255, 165, 0, 0.5); /* Start with orange glow */
+}
+50% {
+  box-shadow: 0 0 20px 20px rgba(0, 0, 255, 0.5); /* Change to blue glow */
+}
+100% {
+  box-shadow: 0 0 10px 20px rgba(255, 165, 0, 0.5); /* Back to orange glow */
+}
+}

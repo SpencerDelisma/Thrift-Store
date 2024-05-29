@@ -1,0 +1,32 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 100vh; /* Set height to full viewport height for centering */
+}
+
+
+.about-container h2 {
+  font-size: 10rem;
+  color: #ff8c00;
+  text-decoration: underline;
+  text-shadow: 0 0 1000px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff8c00, 0 0 70px #ff8c00, 0 0 80px #ff8c00, 0 0 100px #ff8c00, 0 0 150px #ff8c00;
+  animation: glowText 0s linear infinite alternate;
+}
+
+@keyframes glowText {
+  0% {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff8c00, 0 0 70px #ff8c00, 0 0 80px #ff8c00, 0 0 100px #ff8c00, 0 0 150px #ff8c00;
+  }
+  100% {
+      text-shadow: 0 0 20px #fff, 0 0 40px #fff, 0 0 60px #fff, 0 0 80px #ff8c00, 0 0 100px #ff8c00, 0 0 120px #ff8c00, 0 0 140px #ff8c00, 0 0 160px #ff8c00;
+  }
+}
+
+.about-container p {
+  font-size: 5rem;
+  color: #d47501;
+  text-align: center;
+  text-shadow: 0 0 1000px rgb(255, 255, 255); /* Light glow effect */
+}

@@ -1,0 +1,130 @@
+
+
+
+
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  font-size: 4rem; /* Increase font size */
+}
+
+
+.cart-container button {
+  font-size: 2rem; /* Increase font size */
+  padding: 1rem 2rem; /* Increase padding for larger button */
+}
+
+
+.cart-wrapper {
+  background-color: #753c00;
+  padding: 20px;
+  border-radius: 50px;
+  box-shadow: 0 0 100px rgba(0, 50, 232, 0.1);
+}
+
+
+.cart-item-image img {
+  max-width: 700px; /* Adjust the maximum width as needed */
+  max-height: 700px; /* Adjust the maximum height as needed */
+}
+
+.Btn {
+  cursor: pointer;
+  border-radius: 5px;
+  color: rgb(219, 218, 218);
+  border-style: solid;
+  background-color: transparent;
+  border-color: rgb(219, 218, 218);
+  width: 120px;
+  height: 60px;
+  transition: 0.2s ease;
+  text-transform: uppercase;
+  border-width: 2px;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 2px;
+  position: relative; /* Add relative positioning */
+  left: 135px;
+}
+.Btn:hover {
+  color: rgb(247, 247, 247);
+  background-color: rgb(202, 25, 25);
+  border-color: rgb(202, 25, 25);
+  text-shadow: 0 0 50px white, 0 0 20px white, 0 0 15px white;
+  box-shadow: 0 0 50px rgb(202, 25, 25), 0 0 30px rgb(202, 25, 25),
+    0 0 60px rgb(202, 25, 25), 0 0 120px rgb(202, 25, 25);
+  font-size: 20px;
+  width: 130px;
+  height: 50px;
+  letter-spacing: 3px;
+}
+.Btn:active {
+  width: 115px;
+  height: 38px;
+  letter-spacing: 0px;
+}
+
+
+button {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #0815c6;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+button:active {
+  transform: translateY(-1px);
+}
+
+
+.cart-wrapper {
+  position: relative; /* Ensure the pseudo-elements are positioned relative to this container */
+}
+
+.cart-wrapper::before,
+.cart-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 5px;
+  background-color: rgba(9, 147, 131, 0.547); /* LED light color */
+  border-radius: 10px; /* Adjust for rounded corners */
+  animation: glow 2s ease-in-out infinite alternate; /* Apply glow animation */
+}
+
+.cart-wrapper::before {
+  left: -30px; /* Adjust distance from the left side */
+}
+
+.cart-wrapper::after {
+  right: -30px; /* Adjust distance from the right side */
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 1px 1px rgb(10, 51, 10); /* Initial glow effect */
+  }
+  100% {
+    box-shadow: 0 0 1px 1px #0f0; /* Stronger glow effect */
+  }
+}
+
