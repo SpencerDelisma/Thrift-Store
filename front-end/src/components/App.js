@@ -1,6 +1,5 @@
-
 import React, { useContext } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './Navbar';
 import Home from './Home';
 import Tshirts from './Tshirts';
@@ -11,34 +10,34 @@ import About from './About';
 import Cart from './Cart';
 import logo from './assets/logo.png';
 import './App.css';
-import { CartContext } from './CartContext'; // Import CartContext
+import { CartContext } from './CartContext';
 
 function App() {
-  const { cart } = useContext(CartContext); // Access cart state from CartContext
+  const { cart } = useContext(CartContext);
 
   return (
     <Router>
       <div className="app-container">
         <div className="logo-container left-logo">
-          <img src={logo} alt="Logo" className="app-logo" /> {/* Left logo */}
+          <img src={logo} alt="Logo" className="app-logo" />
         </div>
         <div className="logo-container right-logo">
-          <img src={logo} alt="Logo" className="app-logo" /> {/* Right logo */}
+          <img src={logo} alt="Logo" className="app-logo" />
         </div>
         <div className="led-light"></div>
-        <div className="led-light left"></div> 
+        <div className="led-light left"></div>
         <div className="led-light right"></div>
-        <Navbar cartItemCount={cart.length} /> {/* Pass cartItemCount to Navbar */}
+        <Navbar cartItemCount={cart.length} />
         <div className="content-container">
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route path="/tshirts" component={Tshirts} />
-            <Route path="/hoodies" component={Hoodies} />
-            <Route path="/shoe" component={Shoe} />
-            <Route path="/pant" component={Pant} />
-            <Route path="/about" component={About}/>
-            <Route path="/cart" component={Cart}/>
-          </Switch>
+          <Routes>
+            <Route exact path="/" element={<Home />} />
+            <Route path="/tshirts" element={<Tshirts />} />
+            <Route path="/hoodies" element={<Hoodies />} />
+            <Route path="/shoes" element={<Shoe />} />
+            <Route path="/pants" element={<Pant />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/cart" element={<Cart />} />
+          </Routes>
         </div>
       </div>
     </Router>
