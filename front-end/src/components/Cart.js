@@ -271,7 +271,7 @@ function Cart() {
                   <div className="cart-item-image">
                     <img src={item.image_url} alt={item.name} />
                   </div>
-                  <div className="cart-item-details">
+                  <div className="cart-item-details0">
                     <h3>{item.name}</h3>
                     <p>Price: ${item.price}</p>
                   </div>
@@ -279,7 +279,7 @@ function Cart() {
                 </div>
               ))
             )}
-            {!hideCart && cart.length > 0 && <button className="button" onClick={handlePayNow}>Pay Now</button>}
+            {!hideCart && cart.length > 0 && <button className="button0" onClick={handlePayNow}>Pay Now</button>}
             {!hideCart && cart.length === 0 && <p>Cart is empty😥</p>} {/* Message for empty cart */}
           </>
         )}
