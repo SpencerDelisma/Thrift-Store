@@ -1,4 +1,4 @@
-.about-container {
+.about-container89 {
   display: flex;
   flex-direction: column;
   justify-content: center; /* Center vertically */
@@ -7,7 +7,7 @@
   
 }
 
-.about-container h1 {
+.about-container89 h1 {
   font-size: 4rem; 
   color: #171716;
   text-decoration: underline;
@@ -26,7 +26,7 @@
   }
 } */
 
-.about-container h3 {
+.about-container89 h3 {
   font-size: 4rem; 
   color: #222120;
   margin-top: -50px;
@@ -34,9 +34,9 @@
   border-radius: 50px;
 }
 
-.about-container p {
-  font-size: 4rem; 
-  color: #c6c3bf;
+.about-container89 p {
+  font-size: 5rem; 
+  color: #b0b8b7;
   margin-top: 50px;
   
   border-radius: 50px;
