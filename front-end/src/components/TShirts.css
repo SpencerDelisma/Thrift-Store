@@ -99,11 +99,12 @@ html, body {
 }
 
 body {
-  background: url(https://i.pinimg.com/originals/44/6e/3b/446e3b79395a287ca32f7977dd83b290.jpg) fixed; /* Set background image as fixed */
+  background: url(https://assets.vogue.com/photos/615cb9788b6ad31d46ef2976/master/w_2560%2Cc_limit/00_story.jpg) fixed;
   background-size: cover;
-  overflow-y: auto; /* Allow vertical scrolling */
+  background-position: center bottom 240%; /* Adjust the value to position the image lower */
+  background-repeat: no-repeat;
+  overflow-y: auto;
 }
-
 
 
 

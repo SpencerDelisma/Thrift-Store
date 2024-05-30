@@ -67,7 +67,7 @@ with app.app_context():
             name='T-Just-E16',
             description='Mens regular-fit T-shirt made from cotton jersey. This tee has been screen-printed with a maxi Diesel For Successful Living logo whilst damp for a bleeding effect',
             price='79.99',
-            image_url='https://shop.diesel.com/dw/image/v2/BBLG_PRD/on/demandware.static/-/Sites-diesel-master-catalog/default/dw06bd1aa3/images/large/A06483_0ASUB_93R_F.jpg?q=80'  # Add image URL for Tshirt 10
+            image_url='https://i.pinimg.com/736x/1a/60/f1/1a60f1a4148bbb924073baaa9f6c163f.jpg'  # Add image URL for Tshirt 10
         ),
         Tshirt(
             name='PRADA',

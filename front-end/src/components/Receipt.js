@@ -49,8 +49,8 @@ function Receipt({ items, deliveryInfo, paymentInfo, onClose }) {
       <div>
        <h5><u>You'll soon receive an email confirming your purchase details.</u></h5>
 
-        <h5>*You can expect your package to arrive within 5-10 business days.<br></br> *For any inquiries regarding your delivery, please reach out to us using <br></br>*the contact information provided below. We will respond to your queries <br></br>*as promptly as possible.<br></br>Thank you for choosing MislNy for your shopping needs.</h5>
-        <h6><u>Contact Information:<br></br>Email: MislNy@gmail.com<br></br>Phone: 1-123-456-7890</u></h6>
+        <h5>*You can expect your package to arrive within 5-10 business days.<br></br> *For any inquiries regarding your delivery, please reach out to us using <br></br>*the contact information provided below. We will respond to your queries <br></br>*as promptly as possible.<br></br>Thank you for your purchase.</h5>
+        <h6><u>Contact Information:<br></br>Email:delispence7@gmail.com<br></br>Phone: 1-646-944-7568</u></h6>
       </div>
       <button onClick={handleClose}>Close Receipt</button>
     </div>

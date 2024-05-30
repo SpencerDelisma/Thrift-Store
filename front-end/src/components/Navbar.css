@@ -1,7 +1,6 @@
 .navbar {
- 
-  background-color: #171614;
-  padding: 20px;
+background-color: #171614;
+  padding: 50px;
   text-align: center;
   position: fixed; /* Make the navbar fixed */
   width: 100%; /* Make the navbar stretch to full width */
@@ -24,14 +23,14 @@
 
 .navbar-list {
   list-style-type: none;
-  margin: 10px;
+  margin: 0px;
   padding: 0px;
   display: flex;
-  justify-content: center;
+  justify-content:center;
 }
 
 .navbar-list li {
-  margin-right: 170px;
+  margin-right: 100px;
 }
 
 .navbar-link {
