@@ -32,19 +32,19 @@ function Shoes() {
   };
 
   return (
-    <div className="shoes-container">
+    <div className="shoes-container22">
       <h2>Shoes</h2>
       {shoes.map(shoe => (
-        <div key={shoe.id} className="card">
-          <div className="card-image-container">
-            <img src={shoe.image_url} alt={shoe.name} className="card-image" />
+        <div key={shoe.id} className="card22">
+          <div className="card-image-container22">
+            <img src={shoe.image_url} alt={shoe.name} className="card-image22" />
           </div >
-          <div className="info-container">
-          <div className="card-title">{shoe.name}</div>
-          <div className="card-des">{shoe.description}</div>
-          <div className="card-price">Price: ${shoe.price}</div>
+          <div className="info-container22">
+          <div className="card-title22">{shoe.name}</div>
+          <div className="card-des22">{shoe.description}</div>
+          <div className="card-price22">Price: ${shoe.price}</div>
           {/* <button onClick={() => handleDeleteShoes(shoes.id)}>Delete</button> */}
-          <button onClick={() => handleAddToCart(shoe)} className="add-to-cart-button">Add to Cart</button> {/* Add button to add shoes to cart */}
+          <button onClick={() => handleAddToCart(shoe)} className="add-to-cart-button22">Add to Cart</button> {/* Add button to add shoes to cart */}
         </div>
         </div>
       ))}

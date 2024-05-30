@@ -25,13 +25,13 @@ with app.app_context():
             name='Christian Dior | OVERSIZED T-SHIRT',
             description='T-Shirts from Christian Dior, Short Sleeves, Logo, Luxury, 2024 SS',
             price='1039.99',
-            image_url='https://www.dior.com/couture/ecommerce/media/catalog/product/5/4/1700682482_H_24_1_LOOK_111_E07_ZH.jpg'  # Add image URL for Tshirt 3
+            image_url='https://i.pinimg.com/736x/81/40/9d/81409d6ddd806e800b6fdebfed7d4eb2.jpg'  # Add image URL for Tshirt 3
         ),
         Tshirt(
             name='Louis Vuitton t-shirt',
             description='Louis Vuitton 2020 LV Planes Printed T-Shirt T-Shirt w/ Tags Black T- Shirts, Clothing LOU444485 The RealReal',
             price='109.69',
-            image_url='https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lv-planes-printed-t-shirt-ready-to-wear--HIY38WNPG900_PM1_Side%20view.jpg'  # Add image URL for Tshirt 4
+            image_url='https://buyma-global-prod-img.s3.amazonaws.com/img/upload/product_image/be397ada-05aa-48ef-974d-44f57c0bfcf9/8df887bb-3f2c-4d06-a413-6211a4994c11.png'  # Add image URL for Tshirt 4
         ),
         Tshirt(
             name='Hermes Unisex',
@@ -79,7 +79,7 @@ with app.app_context():
             name='Prada Black_T',
             description='Cotton Prada-Black T',
             price='99.99',
-            image_url='https://www.prada.com/content/dam/pradabkg_products/U/UJN/UJN824/11ZMF0002/UJN824_11ZM_F0002_S_222_MDDA.jpg'  # Add image URL for Tshirt 12
+            image_url='https://buyma-global-prod-img.s3.amazonaws.com/img/upload/product_image/c604ef89-7eaf-44ca-95bd-ae9bf4a4c661/d8cb8f9a-8168-4444-b2ba-7a3e4a23b163.png'  # Add image URL for Tshirt 12
         ),
         Tshirt(
             name='Balenciaga_grey_T',
@@ -110,49 +110,73 @@ with app.app_context():
             name='Ami',
             description='Bievenue a A paris',
             price='350.50',
-            image_url='https://cdn-images.farfetch-contents.com/ami-paris-hoodie-with-big-ami-coeur-patch_13816622_22020908_1000.jpg'  # Add image URL for Hoodie 1
+            image_url='https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/066/684/631/original/885777_01.jpg.jpeg?action=crop&width=600'  # Add image URL for Hoodie 1
         ),
         Hoodie(
             name='Chrome Heart',
             description='New York Style Hoodie',
             price='880.99',
-            image_url='https://th.bing.com/th/id/R.3bf2c7e27d7e58e64928e5c1be182a9e?rik=hDdBkrCocj3RMg&pid=ImgRaw&r=0'  # Add image URL for Hoodie 2
+            image_url='https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/054/162/709/original/768202_01.jpg.jpeg?action=crop&width=600'  # Add image URL for Hoodie 2
         ),
         Hoodie(
-            name='Champions',
+            name='Supreme',
             description='100% cotton',
-            price='39.99',
-            image_url='https://cdn-images.italist.com/image/upload/t_zoom_v3/5020719db6127ea80a62775acffef252.jpg'  # Add image URL for Hoodie 3
+            price='939.99',
+            image_url='https://image.goat.com/transform/v1/attachments/product_template_pictures/images/100/160/378/original/1416150_00.png.png?action=crop&width=360'  # Add image URL for Hoodie 3
         ),
         Hoodie(
             name='Dior',
             description='la Boutique Luxuese de Paris avec des Toiles',
             price='309.99',
-            image_url='https://cdna.lystit.com/photos/cettire/f5dee6da/dior-Black-Flower-Logo-Hoodie.jpeg'  # Add image URL for Hoodie 4
+            image_url='https://image.goat.com/transform/v1/attachments/product_template_pictures/images/100/581/283/original/745458_00.png.png?action=crop&width=360'  # Add image URL for Hoodie 4
         ),
         Hoodie(
-            name='Prada',
+            name='Parra',
             description='La maison du couture exclusive Hoodie',
             price='1040.99',
-            image_url='https://cdn-images.farfetch-contents.com/22/94/28/59/22942859_52981218_1000.jpg'  # Add image URL for Hoodie 5
+            image_url='https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/069/300/515/original/913777_01.jpg.jpeg?action=crop&width=600'  # Add image URL for Hoodie 5
         ),
         Hoodie(
-            name='H&M',
-            description='EXclusive Materials H&M hoodie',
-            price='39.99',
-            image_url='https://lp2.hm.com/hmgoepprod?set=quality[79]%2Csource[%2F9e%2Ffc%2F9efc3656eb630aca1e9ed58646138fed17be1f19.jpg]%2Corigin[dam]%2Ccategory[men_hoodiessweatshirts]%2Ctype[DESCRIPTIVESTILLLIFE]%2Cres[m]%2Chmver[1]&call=url[file:/product/main]'  # Add image URL for Hoodie 6
+            name='FEAR OF GOD',
+            description='EXclusive Materials FG hoodie',
+            price='309.99',
+            image_url='https://image.goat.com/transform/v1/attachments/product_template_pictures/images/097/762/283/original/986346_00.png.png?action=crop&width=360'  # Add image URL for Hoodie 6
         ),
         Hoodie(
-            name='Nike',
+            name='ESSENTIALS',
             description='100% cotton',
-            price='60.50',
-            image_url='https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/1aca5245-48b5-43d0-a607-125aa9c393a3/mens-dri-fit-hooded-fitness-pullover-SnPhW0.png'  # Add image URL for Hoodie 7
+            price='250.50',
+            image_url='https://image.goat.com/transform/v1/attachments/product_template_pictures/images/097/762/282/original/1224575_00.png.png?action=crop&width=360'  # Add image URL for Hoodie 7
         ),
         Hoodie(
             name='YEEZY',
             description='YE gap hoodie',
             price='399.99',
-            image_url='https://images.complex.com/complex/images/c_fill,dpr_auto,f_auto,q_auto,w_1400/fl_lossy,pg_1/y4uzoldc1tu7etv8ddxg/kanye-west-hoodie?fimg-ssr-default'  # Add image URL for Hoodie 8
+            image_url='https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/072/988/478/original/950498_01.jpg.jpeg?action=crop&width=600'  # Add image URL for Hoodie 8
+        ),
+        Hoodie(
+            name='AMIRI',
+            description='SMOKE AMIRI',
+            price='99.99',
+            image_url='https://image.goat.com/transform/v1/attachments/product_template_pictures/images/093/735/696/original/1132193_00.png.png?action=crop&width=360'  # Add image URL for Hoodie 8
+        ),
+        Hoodie(
+            name='DENIM TEAR',
+            description='OFFSET VERSION',
+            price='399.99',
+            image_url='https://image.goat.com/transform/v1/attachments/product_template_pictures/images/099/242/134/original/1396947_00.png.png?action=crop&width=360'  # Add image URL for Hoodie 8
+        ),
+        Hoodie(
+            name='GOLF FWANG',
+            description='AIRBUS',
+            price='99.99',
+            image_url='https://image.goat.com/transform/v1/attachments/product_template_pictures/images/097/974/935/original/1370525_00.png.png?action=crop&width=360'  # Add image URL for Hoodie 8
+        ),
+        Hoodie(
+            name='STUSSY',
+            description='GALAXY DOVE-BLACK',
+            price='99.99',
+            image_url='https://image.goat.com/transform/v1/attachments/product_template_pictures/images/079/663/008/original/1060330_00.png.png?action=crop&width=360'  # Add image URL for Hoodie 8
         ),
     ]
     db.session.add_all(hoodies)
@@ -175,25 +199,25 @@ with app.app_context():
             name = 'Timberland',
             description='Timberland Icon6',
             price='99.99',
-            image_url='https://chadcantcolorcustoms.com/cdn/shop/products/il_fullxfull.1096058459_chok.jpg?v=1500019143'  # Add image URL for Shoe 3
+            image_url='https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/066/290/424/original/543681_01.jpg.jpeg?action=crop&width=600'  # Add image URL for Shoe 3
         ),
         Shoe(
-            name='Prada Cup ',
+            name='PRADA CUP',
             description='black Prada Sneakers',
             price='559.99',
             image_url='https://media.neimanmarcus.com/f_auto,q_auto:low,ar_4:5,c_fill,dpr_2.0,w_420/01/nm_4441027_100000_e'  # Add image URL for Shoe 4
         ),
         Shoe(
-            name='Walk"n Dior Sneaker',
+            name='NEW BALANCE',
             description='White Dior ',
             price='1059.99',
-            image_url='https://www.dior.com/couture/ecommerce/media/catalog/product/p/O/1695631516_KCK211OBE_S33G_E03_GHC.jpg'  # Add image URL for Shoe 5
+            image_url='https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/077/813/908/original/1019489_01.jpg.jpeg?action=crop&width=600'  # Add image URL for Shoe 5
         ),
         Shoe(
-            name='Dior B30',
+            name='DIOR B22',
             description='Mesh and Technical Fabric',
             price='1009.99',
-            image_url='https://media.dior.com/couture/ecommerce/media/catalog/product/V/W/1715345124_3SN279ZRF_H900_E03_GHC.jpg'  # Add image URL for Shoe 6
+            image_url='https://image.goat.com/transform/v1/attachments/product_template_additional_pictures/images/070/094/282/original/883976_01.jpg.jpeg?action=crop&width=600'  # Add image URL for Shoe 6
         ),
         Shoe(
             name='RICK OWENS ',
@@ -202,19 +226,19 @@ with app.app_context():
             image_url='https://cdn-images.farfetch-contents.com/20/27/30/33/20273033_50410816_600.jpg'  # Add image URL for Shoe 7
         ),
         Shoe(
-            name='Balenciaga Bouncer beige',
+            name='BALENCIAGA BOUCER BEIGE',
             description='Leather free • Sneaker • Mesh and nylon • Worn-Out effect • Extreme tire tread sole • 15mm arch • Balenciaga logo debossed on the tongue',
             price='1259.99',
             image_url='https://balenciaga.dam.kering.com/m/53dc0467b734d93f/Medium-685613W2RA69700_F.jpg?v=6'  # Add image URL for Shoe 8
         ),
         Shoe(
-            name='Women Runner',
+            name='WOMEN RUNNER',
             description='Description for Shoe 9',
             price='1159.99',
             image_url='https://balenciaga.dam.kering.com/m/114b4bf34f230ce3/Small-772767W3RMU8123_X.jpg?v=7'  # Add image URL for Shoe 9
         ),
         Shoe(
-            name='adidas Samba',
+            name='ADIDAS SAMBA',
             description='Description for Shoe 10',
             price='99.99',
             image_url='https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3bbecbdf584e40398446a8bf0117cf62_9366/Samba_OG_Shoes_White_B75806_01_standard.jpg'  # Add image URL for Shoe 10

@@ -35,16 +35,16 @@ function Pants() {
     <div className="pant-container">
       <h2>Pants</h2>
       {pants.map(pant => (
-        <div key={pant.id} className="card">
-          <div className="card-image-container">
+        <div key={pant.id} className="card11">
+          <div className="card-image-container11">
             <img src={pant.image_url} alt={pant.name} className="card-image" />
           </div >
-          <div className="info-container">
-          <div className="card-title">{pant.name}</div>
-          <div className="card-des">{pant.description}</div>
-          <div className="card-price">Price: ${pant.price}</div>
+          <div className="info-container11">
+          <div className="card-title11">{pant.name}</div>
+          <div className="card-des11">{pant.description}</div>
+          <div className="card-price11">Price: ${pant.price}</div>
           {/* <button onClick={() => handleDeletePants(pants.id)}>Delete</button> */}
-          <button onClick={() => handleAddToCart(pant)} className="add-to-cart-button">Add to Cart</button> {/* Add button to add pants to cart */}
+          <button onClick={() => handleAddToCart(pant)} className="add-to-cart-button11">Add to Cart</button> {/* Add button to add pants to cart */}
         </div>
         </div>
       ))}

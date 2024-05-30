@@ -17,17 +17,17 @@ function TShirts() {
   }, []);
 
   return (
-    <div className="tshirt-container">
+    <div className="tshirt-container 10">
       {tshirts.map(tshirt => (
-        <div key={tshirt.id} className="card"> {/* Apply the 'card' class */}
-          <div className="card-image-container"> {/* Apply the 'card-image-container' class */}
+        <div key={tshirt.id} className="card10"> {/* Apply the 'card' class */}
+          <div className="card-image-container3"> {/* Apply the 'card-image-container' class */}
             <img src={tshirt.image_url} alt={tshirt.name} className="image-icon tshirt-image" /> {/* Apply the 'image-icon' and 'tshirt-image' classes */}
           </div>
           <div className="info-container">
-            <h3 className="card-title name">{tshirt.name}</h3> {/* Apply the 'card-title' class */}
-            <p className="card-des description">{tshirt.description}</p> {/* Apply the 'card-des' class */}
-            <p className="card-price price">${tshirt.price}</p> {/* Apply the 'card-price' class */}
-            <button onClick={() => addToCart(tshirt)} className="add-to-cart-button">Add to Cart</button>
+            <h3 className="card-title10 name">{tshirt.name}</h3> {/* Apply the 'card-title' class */}
+            <p className="card-des10 description">{tshirt.description}</p> {/* Apply the 'card-des' class */}
+            <p className="card-price10 price3">${tshirt.price}</p> {/* Apply the 'card-price' class */}
+            <button onClick={() => addToCart(tshirt)} className="add-to-cart-button10">Add to Cart</button>
           </div>
         </div>
       ))}
