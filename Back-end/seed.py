@@ -37,7 +37,7 @@ with app.app_context():
             name='Hermes Unisex',
             description='Hermes Paris Unisex-T',
             price='29.99',
-            image_url='https://www.omsshops.com/wp-content/uploads/2022/02/mens-heavyweight-tee-black-front-620b92c62c41b.jpg'  # Add image URL for Tshirt 5
+            image_url='https://www.omsshops.com/wp-content/uploads/2022/02/mens-heavyweight-tee-black-front-620b92c62c41b.jpg',  # Add image URL for Tshirt 5
         ),
         Tshirt(
             name='Hermès UAE',
